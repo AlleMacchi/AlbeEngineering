@@ -8,6 +8,9 @@
 #contact {
   min-height: 100vh;
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +25,9 @@
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +40,9 @@
   border-radius: 8px;
   z-index: 2;
   padding: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -56,6 +65,9 @@
 .info li {
   position: relative;
   list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px 0;
   cursor: pointer;
@@ -88,6 +100,9 @@
 
 .sci {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
 }
@@ -131,6 +146,9 @@
 
 .form-box {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -248,11 +266,17 @@
   }
 
   .contact-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
 
   .sci {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
     padding-left: 0;

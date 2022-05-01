@@ -583,6 +583,9 @@ footer {
   background-attachment: fixed;
   min-height: 100px;
   padding: 20px 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -755,6 +758,8 @@ footer {
     top: 0;
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
     transform: translateY(0);
     padding-left: 5%;
     padding-right: 5%;
@@ -813,5 +818,13 @@ footer {
 
   .info-company {
     font-size: 3vw;
+  }
+
+  #home-video {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
   }
 }
